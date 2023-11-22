@@ -39,9 +39,9 @@ class _InitPageState extends State<InitPage> {
     _sharedPrefs = context.read<SharedPreferences>();
     str(_sharedPrefs);
 
-    final premId = FirebaseRemoteConfig.instance.getString('premium');
+    final premId = FirebaseRemoteConfig.instance.getString('activity');
 
-    if (!premId.contains('isPremium')) {
+    if (!premId.contains('isActive')) {
       setState(() {
         premiumId = premId;
         _inited = true;
