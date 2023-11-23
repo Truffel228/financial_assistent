@@ -42,9 +42,9 @@ class NewsPage extends StatelessWidget {
             SliverPadding(
               padding: const EdgeInsets.symmetric(horizontal: 16),
               sliver: SliverList.builder(
-                itemCount: Const.news.length,
+                itemCount: Const.newsList.length,
                 itemBuilder: (context, index) {
-                  final newsItem = Const.news[index];
+                  final newsItem = Const.newsList[index];
                   return NewsItemWidget(newsItem: newsItem);
                 },
               ),

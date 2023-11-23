@@ -2,129 +2,131 @@ import 'package:as_fin/models/one_news_item.dart';
 import 'package:as_fin/models/question.dart';
 
 class Const {
-  static final news = [
+  static final newsList = [
     const OneNew(
-      imagePath:
-          'https://images.fnlondon.com/im-886599/?width=700&size=1.5005861664712778&pixel_ratio=2',
+      networkImage:
+          'https://images.fnlondon.com/im-891168/?width=700&size=1.5005861664712778&pixel_ratio=2',
       title:
-          'Deutsche Bank names fixed income veteran Vijayaratna as UK and Ireland CEO',
-      subtitle:
-          "Deutsche Bank has promoted a fixed income veteran to lead its business in the UK and Ireland, replacing Tiina Lee who left for Citigroup earlier this year.\n\nVathany Vijayaratna is now chief executive for the UK and Ireland at the German lender, it said in a statement announcing her appointment. A 2o-year veteran of Deutsche, she was previously global head of structuring within its fixed income and currencies division, and was most recently head of non-financial risk for its investment bank.\n\nVijayaratna takes the role from Lee, who has now made the switch to lead Citigroup's UK operations after her appointment was announced in July. Lee takes charge of 15,000 UK employees at Citigroup, having spent 26 years at Deutsche Bank, five leading its UK and Ireland operations.",
+          'Financial News journalists recognised at State Street press awards',
+      text:
+          "Financial News journalists claimed one award and came runner up in another at the State Street Institutional Press Awards on 22 November.\n\nDeputy editor Paul Clarke took top prize for his reporting on diversity issues, while asset management correspondent David Ricketts scored accolades from the judges in the passive investment category.\n\nClarke was applauded for revealing the true dearth of female representation in senior dealmaking roles. Just 10% of top bankers in Europe are women, his research found, as he drew on exclusive interviews with leaders in the profession in search of solutions.",
     ),
     const OneNew(
-      imagePath:
-          'https://images.fnlondon.com/im-886611/?width=700&size=1.5005861664712778&pixel_ratio=2',
-      title: 'The Fintech Files: Big ambitions meet harsh reality',
-      subtitle:
-          "It was April 2021. The meme-stock mania was in full swing. Shares in GameStop and AMC were skyrocketing. Institutional investors with deep pockets were trying to get a piece of the firms offering brokerage services.\n\nCalifornia-based investing app Robinhood and Amsterdam-based BUX — known as the European Robinhood — saw interest spike. Tencent, which owns WeChat, backed BUX in a \$80m funding round alongside other major investors.",
-    ),
-    const OneNew(
-      imagePath:
-          'https://images.fnlondon.com/im-886071/?width=700&size=1.5005861664712778&pixel_ratio=2',
+      networkImage:
+          'https://images.fnlondon.com/im-890775/?width=700&size=1.5005861664712778&pixel_ratio=2',
       title:
-          'Tencent-backed fintech BUX cuts 40% of staff in bid to turn profit',
-      subtitle:
-          "Amsterdam-based neo-broker BUX has laid off roughly 40% of its workforce amid a funding drought in the fintech sector.\n\nBacked by Tencent, BUX provides brokerage services across Europe and the UK. The firm raised \$80m in April 2021 in a funding round that included Tencent, ABN Amro Ventures and Prosus Ventures.",
+          'Citigroup rejigs senior dealmakers as Jane Fraser’s sweeping overhaul picks up pace',
+      text:
+          "Citigroup has unveiled its senior team of dealmakers and shifted some bankers into a new unit servicing the Wall Street bank's top clients, as the sweeping reorganistion by chief executive Jane Fraser continues.",
     ),
     const OneNew(
-      imagePath:
-          'https://images.fnlondon.com/im-886088/?width=700&size=1.5005861664712778&pixel_ratio=2',
-      title: 'Leveraged bitcoin trading is coming to Cboe in January',
-      subtitle:
-          "Crypto investors will be able to trade bitcoin and ether futures on margin in January via Cboe Global Markets, the exchange operator said on 13 November.\n\nWhile fully collateralised futures contracts require traders to put up the entire amount upfront, in margined contracts customers can post just a percentage of the total position before trading. Trading on margin can amplify both gains and losses.",
-    ),
-    const OneNew(
-      imagePath:
-          'https://images.fnlondon.com/im-885248/?width=700&size=1.5005861664712778&pixel_ratio=2',
+      networkImage:
+          'https://images.fnlondon.com/im-890679/?width=700&size=1.5005861664712778&pixel_ratio=2',
       title:
-          "The City’s post-Brexit battles are far from over. Here’s what you need to know",
-      subtitle:
-          "Seven and a half years after the UK voted to leave the EU, the City is still trying to figure out a path forward.\n\nFinancial services were left without a deal. An agreement on how regulators would work together gathered dust for years. EU authorities have made plays to bring everything from investment banking and asset management to trading and clearing back to the bloc.\n\nAcross financial services, London's leaders have had to adapt. But where does the landscape sit now? Dive into some must-reads from Financial News below to find out more.",
+          'Citigroup names Asia banking heads as part of global restructuring',
+      text:
+          "Citigroup has named senior leaders for banking in Asia, as part of the US bank’s ongoing global restructuring.\n\nThe New York-based bank has named Jan Metzger, former Asia head of banking, capital markets and advisory, to lead its investment banking franchise in its North Asia and Australia and South Asia clusters, it said 22 November.",
     ),
     const OneNew(
-      imagePath:
-          'https://images.fnlondon.com/im-886013/?width=700&size=1.5005861664712778&pixel_ratio=2',
+      networkImage:
+          'https://images.fnlondon.com/im-890731/?width=700&size=1.5005861664712778&pixel_ratio=2',
+      title: 'Kirkland & Ellis hires senior Macfarlanes tax partner in London',
+      text:
+          "Kirkland & Ellis has turned to Macfarlanes to rebuild in London following a raid by US rival Paul Weiss.",
+    ),
+    const OneNew(
+      networkImage:
+          'https://images.fnlondon.com/im-890685/?width=700&size=1.5005861664712778&pixel_ratio=2',
       title:
-          'Private debt was supposed to collapse when rates rose. Instead it is everywhere',
-      subtitle:
-          "Wall Street’s doom-mongers spent years warning that private lenders would be the next bubble to burst when central banks tightened policy. Instead, the funds are becoming even more ubiquitous as companies scramble to refinance debt in a higher interest-rate environment.\n\nTake PetVet Care Centers. The Westport, Connecticut-based company operates 450 veterinary clinics and hospitals across the US and has been owned by private equity giant KKR since 2018. It has been a successful acquisition, but the company is facing a wall of debt maturities that can only be refinanced at higher cost. KKR is providing \$600m of additional equity to ease the burden, while private debt lender Blue Owl Capital will extend PetVet a \$2.3bn senior loan.",
+          "Kirkland & Ellis partner leaves for Paul Weiss as rivals continue London fight",
+      text:
+          "Paul Weiss has hired a technology and intellectual property partner from Kirkland & Ellis in London.\n\nKirkland partner John Patten is leaving the US law firm to join rival Paul Weiss, according to a person familiar with the situation.",
+    ),
+    const OneNew(
+      networkImage:
+          'https://images.fnlondon.com/im-886672/?width=700&size=1.5005861664712778&pixel_ratio=2',
+      title:
+          'Law firms in London are betting private equity will come roaring back',
+      text:
+          "Major law firms in London are making big bets on the private equity market coming back strong, with partner hiring hitting record levels in recent months.\n\nDespite a deal drought in private equity amid rising interest rates and difficulty accessing finance, law firms in the City are investing in the space at record levels.",
     ),
   ];
 
   static final courses = [
     const OneNew(
-      imagePath: 'https://images.mktw.net/im-886618/social',
-      title: 'The Basics of Day Trading',
-      subtitle:
-          'Day trading means buying and selling a batch of securities within a day, or even within seconds. It has nothing to do with investing in the traditional sense. It is exploiting the inevitable up-and-down price movements that occur during a trading session.\n\nDay trading is most common in the stock markets and on the foreign exchange (forex) where currencies are traded.\n\nDay traders are typically well-educated in the minutia of trading and tend to be well funded. Many of them add an additional level of risk by using leverage to increase the size of their stakes.',
+      networkImage:
+          'https://www.finews.com/images/cache/9f79cfa99443234a1019eb1b1d096c88_w320_h192_cp.jpg',
+      title: 'Always Use a Trading Plan',
+      text:
+          "A trading plan is a set of rules that specifies a trader's entry, exit, and money management criteria for every purchase.With today's technology, test a trading idea before risking real money. Known as backtesting, this practice allows you to apply your trading idea using historical data and determine if it is viable. Once a plan has been developed and backtesting shows good results, the plan can be used in real trading.",
     ),
     const OneNew(
-      imagePath:
-          'https://s.wsj.net/public/resources/MWimages/MW-GP644_MicroS_ZG_20180906154215.jpg',
-      title: 'Why Day Trading Is Controversial',
-      subtitle:
-          "The profit potential of day trading is an oft-debated topic on Wall Street. Internet day-trading scams have lured amateurs by promising enormous returns in a short period of time.\n\nSome people day-trade without sufficient knowledge. But there are day traders who make a successful living despite—or perhaps because of—the risks.\n\nMany professional money managers and financial advisors shy away from day trading. They argue that, in most cases, the reward does not justify the risk. Moreover, many economists and financial practitioners argue that active trading strategies of any kind tend to underperform a more basic passive index strategy over time especially after fees and taxes are taken into account.",
+      networkImage:
+          'https://www.finews.com/images/cache/60258b2c64756dd8448352cab8bb4ebd_w320_h192_cp.jpg',
+      title: 'Treat Trading Like a Business',
+      text:
+          "To be successful, you must approach trading as a full or part-time business, not as a hobby or a job.\n\nIf it's approached as a hobby, there is no real commitment to learning. If it's a job, it can be frustrating because there is no regular paycheck.",
     ),
     const OneNew(
-      imagePath:
-          'https://s3.tradingview.com/news/image/tradingview:5d6f91e08094b-f65a2bb5cb874ac4b9b5d109110fa35d-resized.jpeg',
-      title: 'Sufficient Capital',
-      subtitle:
-          'Wise day traders use only risk capital that they can afford to lose. This protects them from financial ruin and helps eliminate emotion from their trading decisions.\n\nA large amount of capital is often necessary to capitalize effectively on intraday price movements, which can be in pennies or fractions of a cent.\n\nAdequate cash is required for day traders who intend to use leverage in margin accounts. Volatile market swings can trigger big margin calls on short notice.',
+      networkImage:
+          'https://www.finews.com/images/cache/d259002e7eacb9892d67cb712dcca0bc_w320_h192_cp.jpg',
+      title: 'Use Technology to Your Advantage',
+      text:
+          "Trading is a competitive business. It's safe to assume that the person on the other side of a trade is taking full advantage of all the available technology.\n\nCharting platforms give traders infinite ways to view and analyze markets. Backtesting an idea using historical data prevents costly missteps. Getting market updates via smartphone allows us to monitor trades anywhere. Technology that we take for granted, like a high-speed internet connection, can increase trading performance.",
     ),
     const OneNew(
-      imagePath:
-          'https://s3.tradingview.com/news/image/tradingview:808f45bc3094b-1db105867de2f1fc33c8e27e3aa6e63d-resized.jpeg',
-      title: 'Day Trading Strategies',
-      subtitle:
-          "A trader needs to have an edge over the rest of the market. Day traders use any of a number of strategies, including swing trading, arbitrage, and trading news. They refine these strategies until they produce consistent profits and limit their losses.\n\nThere also are some basic rules of day trading that are wise to follow: Pick your trading choices wisely. Plan your entry and exit points in advance and stick to the plan. Identify patterns in the trading activities of your choices in advance.",
+      networkImage:
+          'https://www.finews.com/images/cache/47efc7f7a150e96e7f2d1e349db2cbcf_w320_h192_cp.jpg',
+      title: 'Protect Your Trading Capital',
+      text:
+          "Saving enough money to fund a trading account takes time and effort. It can be even more difficult if you have to do it twice.\n\nIt is important to note that protecting your trading capital is not synonymous with never experiencing a losing trade. All traders have losing trades. Protecting capital entails not taking unnecessary risks and doing everything you can to preserve your trading business.",
     ),
     const OneNew(
-      imagePath:
-          'https://s3.tradingview.com/news/image/tradingview:b1e381586094b-6f3fb861c49dcd275bbe33cde413c818-resized.jpeg',
-      title: 'Discipline',
-      subtitle:
-          "Many day traders end up losing money because they fail to make trades that meet their own criteria. As the saying goes, “Plan the trade and trade the plan.” Success is impossible without discipline.\n\nTo profit, day traders rely heavily on market volatility. A day trader may find a stock attractive if it moves a lot during the day. That could happen for a number of different reasons, including an earnings report, investor sentiment, or even general economic or company news.",
+      networkImage:
+          'https://www.finews.com/images/cache/51a31d8c06bf685cec8f938412dc9525_w320_h192_cp.jpg',
+      title: 'Become a Student of the Markets',
+      text:
+          "Think of it as continuing education. Traders need to remain focused on learning more each day. It is important to remember that understanding the markets and their intricacies is an ongoing, lifelong process.\n\nHard research allows traders to understand the facts, like what the different economic reports mean. Focus and observation allow traders to sharpen their instincts and learn the nuances.",
     ),
     const OneNew(
-      imagePath:
-          'https://s3.tradingview.com/news/image/tradingview:6246bbd99094b-08a9e399b6bc4f54cf2c1d95be5711a8-resized.jpeg',
-      title: 'Who Makes a Living by Day Trading?',
-      subtitle:
-          "There are two primary divisions of professional day traders: those who work alone, and/or those who work for a larger institution.\n\nMost day traders who trade for a living work for large players like hedge funds and the proprietary trading desks of banks and financial institutions. These traders have an advantage because they have access to resources such as direct lines to counterparties, a trading desk, large amounts of capital and leverage, and expensive analytical software.",
+      networkImage:
+          'https://www.finews.com/images/cache/fe268df0482278cc85dafb8d9689e154_w320_h192_cp.jpg',
+      title: 'Risk Only What You Can Afford to Lose',
+      text:
+          "Before using real cash, make sure that money in that trading account is expendable. If it's not, the trader should keep saving until it is.\n\nMoney in a trading account should not be allocated for college tuition or the mortgage. Traders must never allow themselves to think they are simply borrowing money from these other important obligations.\n\nLosing money is traumatic enough. It is even more so if it is capital that should have never been risked in the first place.",
     ),
     const OneNew(
-      imagePath:
-          'https://s3.tradingview.com/news/image/tradingview:55258edcf094b-d1f7ea1aa23381b8024832a20c7c3563-resized.jpeg',
-      title: 'Access to a Trading Desk',
-      subtitle:
-          "This is usually reserved for traders who work for larger institutions or those who manage large amounts of money.\n\nThe trading or dealing desk provides these traders with instantaneous order execution, which is crucial. For example, when an acquisition is announced, day traders looking at merger arbitrage can place their orders before the rest of the market is able to take advantage of the price differential.",
+      networkImage:
+          'https://www.finews.com/images/cache/a97621f4b4f9f8f7e8acaa1486b834d0_w320_h192_cp.jpg',
+      title: 'Develop a Methodology Based on Facts',
+      text:
+          "Taking the time to develop a sound trading methodology is worth the effort. It may be tempting to believe in the \"so easy it's like printing money\" trading scams that are prevalent on the internet. But facts, not emotions or hope, should develop a trading plan.\n\nTraders who are not in a hurry to learn typically have an easier time sifting through all of the information available on the internet. If you were to start a new career, you would need to study at a college or university for at least a year or two before you qualify to apply for a position in the new field. Learning to trade demands the same amount of time and fact-driven research and study.",
     ),
     const OneNew(
-      imagePath:
-          'https://s3.tradingview.com/news/image/tradingview:6b948c116094b-2fc22a4adb8dcf71535b11c65e2b1881-resized.jpeg',
-      title: 'Multiple News Sources',
-      subtitle:
-          "News provides most of the opportunities. It is imperative to be the first to know when something significant happens.\n\nThe typical trading room has access to all of the leading newswires, constant coverage from news organizations, and software that constantly scans news sources for important stories.  ",
+      networkImage:
+          'https://www.finews.com/images/cache/d6c318cb023342eb8d117f0c1fd1a2f5_w320_h192_cp.jpg',
+      title: 'Always Use a Stop Loss',
+      text:
+          "A stop loss is a predetermined amount of risk that a trader is willing to accept with each trade. The stop loss can be a dollar amount or percentage, but it limits the trader's exposure during a trade. Using a stop loss can take some of the stress out of trading since we know we will only lose X amount on any given trade.\n\nNot having a stop loss is bad practice, even if it leads to a winning trade. Exiting with a stop loss, and therefore a losing trade is still good trading if it falls within the trading plan's rules.",
     ),
     const OneNew(
-      imagePath:
-          'https://www.reuters.com/resizer/QCIlLLUiYpQ2B_CxmZ6DTwc3erU=/240x240/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/FH7EYAOX4ZLR3CRL3KMYMNRUDU.jpg',
-      title: 'How Do I Get Started Day Trading?',
-      subtitle:
-          "A successful day trader understands the discipline of technical analysis. This is identifying trading opportunities by observing and plotting the patterns of price and volume movement in a stock (or any other investment). The long-term trend shows how the stock has behaved in the past and suggests how it should behave in the immediate future.\n\nTechnical analysis is not usually done with paper and pencil these days. There are software packages that help create charts and graphs for the purpose.\n\nThe day trader also must have a plan in place before making a single trade. Which stocks to trade and what price points are acceptable for buying and selling all must be set in advance. A successful day trader does not leave room for impulse purchases.",
+      networkImage:
+          'https://www.finews.com/images/cache/7cd75c428f1ee722ad512a7de107e3bb_w500_h300_cp.jpg',
+      title: 'Know When to Stop Trading',
+      text:
+          "There are two reasons to stop trading: an ineffective trading plan and an ineffective trader.\n\nAn ineffective trading plan shows greater losses than anticipated in historical testing. That happens. Markets may have changed, or volatility may have lessened. For whatever reason, the trading plan simply is not performing as expected.",
     ),
     const OneNew(
-      imagePath:
-          'https://www.reuters.com/resizer/lYVxrT98CCFQEd2LWMCpXcLrU4c=/240x240/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/FT544524SJLCNCJL63MR2Y5VSQ.jpg',
-      title: 'What Is the First Rule of Day Trading?',
-      subtitle:
-          "The first rule of day trading is never to hold onto a position when the market closes for the day. Win or lose, sell out.\n\nMost day traders make it a rule never to hold a losing position overnight in the hope that part or all of the losses can be recouped.\n\nFor one thing, brokers have higher margin requirements for overnight trades, and that means additional capital is required.",
+      networkImage:
+          'https://www.finews.com/images/cache/2d5c8d7c493d9c8cc50cf751272a89ae_w320_h192_cp.jpg',
+      title: 'Keep Trading in Perspective',
+      text:
+          "Stay focused on the big picture when trading. A losing trade should not surprise us; It's a part of trading. A winning trade is just one step to a profitable business. It is the cumulative profits that make a difference.\n\nOnce a trader accepts wins and losses as part of the business, emotions have less effect on trading performance. That is not to say that we cannot be excited about a particularly fruitful trade, but we must keep in mind that a losing trade is never far off.",
     ),
   ];
 
   static final victories = [
-    const Question(
+    const VictorineItem(
       'What does the term "short selling" involve in trading?',
       [
         'Falling prices and pessimism',
@@ -134,7 +136,7 @@ class Const {
       ],
       2,
     ),
-    const Question(
+    const VictorineItem(
       'What is the role of a market index?',
       [
         'Low-value stocks',
@@ -144,7 +146,7 @@ class Const {
       ],
       3,
     ),
-    const Question(
+    const VictorineItem(
         'What does IPO stand for in the stock market?',
         [
           'Internal Price Offering',
@@ -153,7 +155,7 @@ class Const {
           'Invertal Price Offering',
         ],
         2),
-    const Question(
+    const VictorineItem(
       'In the context of trading, what does the acronym ETF stand for?',
       [
         'Exchange-Traded Fund',
@@ -163,7 +165,7 @@ class Const {
       ],
       0,
     ),
-    const Question(
+    const VictorineItem(
       'What is the primary function of a stop-loss order?',
       [
         'To maximize profits by indefinitely',
@@ -173,7 +175,7 @@ class Const {
       ],
       3,
     ),
-    const Question(
+    const VictorineItem(
       'What does the term "Bull Market" refer to in finance?',
       [
         'Buying a security  of rising prices',
@@ -183,7 +185,7 @@ class Const {
       ],
       2,
     ),
-    const Question(
+    const VictorineItem(
       "What is the significance of the Federal Reserve's interest rate decisions on financial markets?",
       [
         'No impact on financial markets',
@@ -193,7 +195,7 @@ class Const {
       ],
       0,
     ),
-    const Question(
+    const VictorineItem(
       'What does the P/E ratio (Price-to-Earnings) indicate about a stock?',
       [
         'The degree of variation price series',
@@ -203,7 +205,7 @@ class Const {
       ],
       0,
     ),
-    const Question(
+    const VictorineItem(
       'What is a "Blue Chip" stock?',
       [
         'To unegulate stock trading hours',
@@ -213,7 +215,7 @@ class Const {
       ],
       2,
     ),
-    const Question(
+    const VictorineItem(
       'What does the term "volatility" refer to in the context of financial markets?',
       [
         'How much the stock in the past year',
@@ -225,8 +227,9 @@ class Const {
     ),
   ];
 
-  static const String pP =
-      'https://docs.google.com/document/d/1T7xKDTzLnan5KMgpUy7S2qSe53OTqgYlNjlzcI2pOdA/edit?usp=sharing';
   static const String terms =
-      'https://docs.google.com/document/d/18eKjg1Lf3TLqfiQjmJDx7oB4-gxDpT3hHuSGVcwRGP4/edit?usp=sharing';
+      'https://docs.google.com/document/d/1NZlnJfxoU98KA9hEQcpH6bF49YOAiDqhCxCADsO0VZM/edit?usp=sharing';
+  static const String pP =
+      'https://docs.google.com/document/d/1oJHVdpgzVT-2c0Xf0cisxJlPkXj7JiBhMXCGgHh2CBs/edit?usp=sharing';
+  static const String support = 'https://forms.gle/Mr1C4RDtuYdv6ELG7';
 }

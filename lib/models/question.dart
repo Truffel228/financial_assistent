@@ -1,6 +1,7 @@
-class Question {
-  const Question(this.quesiton, this.answers, this.rightAnwerIndex);
+class VictorineItem {
+  const VictorineItem(this.quesiton, this.answers, this.rightAnwerIndex);
+
+  final int rightAnwerIndex;
   final String quesiton;
   final List<String> answers;
-  final int rightAnwerIndex;
 }

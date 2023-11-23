@@ -1,10 +1,10 @@
 class OneNew {
   const OneNew({
-    required this.imagePath,
+    required this.networkImage,
     required this.title,
-    required this.subtitle,
+    required this.text,
   });
-  final String imagePath;
+  final String networkImage;
   final String title;
-  final String subtitle;
+  final String text;
 }

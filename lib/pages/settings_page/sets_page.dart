@@ -58,13 +58,14 @@ class SetsPage extends StatelessWidget {
                   SetItem(
                     iconPath: 'pics/settings_bag.svg',
                     title: 'Support',
-                    onTap: () => context.pushNamed(Routes.p,
-                        extra: 'https://forms.gle/s7gTCtaZtk4fSeyk9'),
+                    onTap: () => context.pushNamed(
+                      Routes.p,
+                      extra: Const.support,
+                    ),
                   ),
                   SetItem(
                     iconPath: 'pics/settings_star.svg',
                     title: 'Rate app',
-                    //TODO: Add your app's appStoreId
                     onTap: () => InAppReview.instance
                         .openStoreListing(appStoreId: '6472455376'),
                   ),

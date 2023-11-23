@@ -31,7 +31,7 @@ class NewsItemWidget extends StatelessWidget {
                   ),
                   const SizedBox(height: 4),
                   Text(
-                    newsItem.subtitle,
+                    newsItem.text,
                     style: context.textTheme.titleMedium,
                     maxLines: 2,
                     overflow: TextOverflow.ellipsis,
@@ -43,7 +43,7 @@ class NewsItemWidget extends StatelessWidget {
             ClipRRect(
               borderRadius: BorderRadius.circular(12),
               child: Image.network(
-                newsItem.imagePath,
+                newsItem.networkImage,
                 fit: BoxFit.fitWidth,
                 width: 100,
               ),

@@ -68,7 +68,7 @@ class EducationsPage extends StatelessWidget {
                           ClipRRect(
                             borderRadius: BorderRadius.circular(12),
                             child: Image.network(
-                              c.imagePath,
+                              c.networkImage,
                               width: 100,
                               height: 80,
                               fit: BoxFit.cover,
@@ -189,7 +189,7 @@ class CourseItem extends StatelessWidget {
               ClipRRect(
                 borderRadius: BorderRadius.circular(8),
                 child: Image.network(
-                  course.imagePath,
+                  course.networkImage,
                   width: 80,
                   height: 60,
                   fit: BoxFit.cover,
@@ -208,7 +208,7 @@ class CourseItem extends StatelessWidget {
                       overflow: TextOverflow.ellipsis,
                     ),
                     Text(
-                      course.subtitle,
+                      course.text,
                       style: context.textTheme.titleLarge,
                       maxLines: 2,
                       overflow: TextOverflow.ellipsis,

@@ -59,7 +59,7 @@ class OneNewPage extends StatelessWidget {
                     ClipRRect(
                       borderRadius: BorderRadius.circular(16),
                       child: Image.network(
-                        newsItem.imagePath,
+                        newsItem.networkImage,
                         fit: BoxFit.fitWidth,
                       ),
                     ),
@@ -70,7 +70,7 @@ class OneNewPage extends StatelessWidget {
                     ),
                     const SizedBox(height: 32),
                     Text(
-                      newsItem.subtitle,
+                      newsItem.text,
                       style: context.textTheme.titleLarge,
                     ),
                     const SizedBox(height: 24),

@@ -142,7 +142,7 @@ class _AtHomePageState extends State<AtHomePage> {
                               ClipRRect(
                                 borderRadius: BorderRadius.circular(12),
                                 child: Image.network(
-                                  c.imagePath,
+                                  c.networkImage,
                                   width: 100,
                                   height: 80,
                                   fit: BoxFit.cover,
@@ -239,7 +239,7 @@ class _AtHomePageState extends State<AtHomePage> {
             sliver: SliverList.builder(
               itemCount: 2,
               itemBuilder: (context, index) {
-                final newsItem = Const.news[index];
+                final newsItem = Const.newsList[index];
                 return NewsItemWidget(newsItem: newsItem);
               },
             ),

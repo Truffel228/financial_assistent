@@ -26,7 +26,7 @@ class AdditionalNewCard extends StatelessWidget {
             ClipRRect(
               borderRadius: BorderRadius.circular(16),
               child: Image.network(
-                newsItem.imagePath,
+                newsItem.networkImage,
                 fit: BoxFit.fitWidth,
               ),
             ),
@@ -39,7 +39,7 @@ class AdditionalNewCard extends StatelessWidget {
             ),
             const SizedBox(height: 10),
             Text(
-              newsItem.subtitle,
+              newsItem.text,
               style: context.textTheme.titleMedium,
               maxLines: 2,
               overflow: TextOverflow.ellipsis,

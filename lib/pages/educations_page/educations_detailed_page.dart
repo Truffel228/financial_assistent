@@ -50,7 +50,7 @@ class EducationPage extends StatelessWidget {
                   ClipRRect(
                     borderRadius: BorderRadius.circular(16),
                     child: Image.network(
-                      course.imagePath,
+                      course.networkImage,
                       fit: BoxFit.fitWidth,
                     ),
                   ),
@@ -61,7 +61,7 @@ class EducationPage extends StatelessWidget {
                   ),
                   const SizedBox(height: 20),
                   Text(
-                    course.subtitle,
+                    course.text,
                     style: context.textTheme.titleLarge,
                   ),
                   const SizedBox(height: 20),
